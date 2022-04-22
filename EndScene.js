@@ -3,7 +3,7 @@ class EndScene extends Phaser.Scene {
 		super({ key: 'EndScene' })
 	}
 	preload() {
-  this.load.image('background', 'https://aws1.discourse-cdn.com/codecademy/original/5X/2/8/8/b/288b5e9ffe7a212f9aefe01496abf3a5d829d3aa.png');
+  this.load.image('background', 'PixelStartBackground.png');
 }
 	create() {
   let bg=this.add.image(195,250,"background");

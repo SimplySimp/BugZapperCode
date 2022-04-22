@@ -3,8 +3,8 @@ class StartScene extends Phaser.Scene {
 		super({ key: 'StartScene' })
 	}
 	preload() {
-  this.load.image('background', 'https://aws1.discourse-cdn.com/codecademy/original/5X/2/8/8/b/288b5e9ffe7a212f9aefe01496abf3a5d829d3aa.png');
-  this.load.image('title','https://aws1.discourse-cdn.com/codecademy/original/5X/3/7/3/1/3731d5b708b39f5dcc52b85fd4b5f5d4ccd96bff.png');
+  this.load.image('background', 'PixelStartBackground.png');
+  this.load.image('title','SpaceDodgeTitle.png');
 }
 	create() {
   let bg=this.add.image(195,250,"background");

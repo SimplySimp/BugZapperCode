@@ -4,11 +4,11 @@ class GameScene extends Phaser.Scene {
 	}
 
 	preload() {
-  this.load.image('bug1', 'https://aws1.discourse-cdn.com/codecademy/original/5X/f/1/8/e/f18ec4657bddab3d5ea0d24b6076928591adb5d4.png');
-  this.load.image('platform', 'https://aws1.discourse-cdn.com/codecademy/original/5X/b/d/7/7/bd7735eadf1a07152a97da0247efa74c4cb04e07.png');
-  this.load.image('codey', 'https://aws1.discourse-cdn.com/codecademy/original/5X/e/3/5/f/e35f0b50569e409a171f49f1d0807c0ea1e2c5eb.png');
-  this.load.image('background', 'https://aws1.discourse-cdn.com/codecademy/original/5X/2/8/8/b/288b5e9ffe7a212f9aefe01496abf3a5d829d3aa.png');
-  this.load.image('safePlatform', 'https://content.codecademy.com/courses/learn-phaser/physics/platform.png')
+  this.load.image('bug1', 'EnemySpaceshipV2 (1).png');
+  this.load.image('platform', 'SpaceDodgeBarrier.png');
+  this.load.image('codey', 'PlayerShipV2.png');
+  this.load.image('background', 'PixelStartBackground.png');
+  this.load.image('safePlatform', 'SpaceDodgeBarrier.png')
 }
 
 	create() {
